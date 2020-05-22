@@ -1,0 +1,3 @@
+Reentrant vs Synchronize
+If thread takes two locks by rentring then it has to release 2 locks else other threads will be blocked.Same with synchronize block
+Maintains fairness by using abstractQueSynchronizer Interface which queus the thread as they come.
